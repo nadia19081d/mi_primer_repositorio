@@ -1,0 +1,16 @@
+
+div{
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+}
+img{
+    border-width: 4px;
+    border-color: black;  
+    /* padding-top: 15px;  Es la distancia entre su contenido y su borde */
+    border-style: solid;
+    
+    margin: 25px;
+    padding: 25px;
+/*padding en una linea va en dirreción a las manecillas del reloj  padding: 20px /*top 10px /*rigth 10px /*bottom  30px /*left*/ 
+}

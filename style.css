@@ -1,0 +1,77 @@
+
+.titulos {
+  color : blue; 
+  
+}
+h2 {
+  font-size: 55px;
+  font-family: 'Cedarville Cursive', cursive;  
+}
+h3 {
+  font-size:  15px;
+  font-family: 'Pangolin', cursive; 
+}
+/* forma de poner a varios elementos el mismo formatio */ */
+
+/* Regla con más de una propiedad */
+/* li {
+  font-size: 20 px;
+  color: green; 
+  font-family: 'Gemunu Libre', sans-serif;
+
+} */
+.imagen-perros{
+  width : 400px;
+  border-width: 10px;
+  border-color:blue;
+  border-style:  solid dashed double;
+  display: none;
+  
+  
+}
+.borde-redondo{
+  border-radius: 50%;
+}
+/*
+#hola{ Selector de id 
+  margin-top: 20px;  
+  font-weight: bold /* El grueso de la fuente */ 
+
+/* 
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+} */
+
+#lista-perros-aman{
+  color: violet;
+  font-size: 15px;
+}
+
+#lista-perros-odian{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aquamarine; 
+}
+img[alt] {
+  border-radius: 50%;
+
+}
+[type="radio"] {
+  margin: 25px; 
+}
+
+[type="checkbox"] {
+  margin: 8px;
+}
+a[href="https://www.freecodecamp.org/espanol/"] {
+  background-color:pink;  
+  padding: 5px; 
+  font-weight: bold;
+}
+[type="checkbox"] {
+  margin: 25px;
+  max-width: 300px;
+} /* La ultima clase es la que toma en cuenta css */ 
