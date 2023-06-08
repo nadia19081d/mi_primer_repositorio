@@ -3,4 +3,12 @@
     height: 200px;
     background: #aaa; 
     margin-bottom: 20px;
+    display: inline-block; /* Este es para que tenga su espacio */
+}
+p{
+    display: inline-block;
+}
+
+a{
+    display: block; 
 }
